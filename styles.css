@@ -176,7 +176,7 @@ form fieldset .checkbox label::before {
 
 form fieldset .checkbox input[type="checkbox"]:checked + label {
     background-color: #FFFFFF;
-    color: #8FB399;
+    color: rgb(143, 179, 153);
 }
 
 form fieldset .checkbox input[type="checkbox"]:checked + label::before {
@@ -259,6 +259,25 @@ form fieldset textarea::placeholder{
     font-family: 'Quicksand', sans-serif;
 }
 
+fieldset #submit {
+    position: relative;
+    top: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #8FB399;
+    text-transform: uppercase;
+    border: 3px solid #FFFFFF;
+    transition: background 1s ease,
+                color 1s ease;
+}
+
+fieldset #submit:hover {
+    background: #FFFFFF;
+    color: rgb(143, 179, 153);
+}
+
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     body {
@@ -283,7 +302,7 @@ form fieldset textarea::placeholder{
 
     
     form fieldset #title-box {
-        font-size: 16px; /**/
+        font-size: 16px; 
     }
     
     form fieldset .checkbox {
@@ -300,7 +319,7 @@ form fieldset textarea::placeholder{
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     body {
-        font-size: 16px; /**/
+        font-size: 16px; 
     }
     
     header p {
@@ -320,11 +339,11 @@ form fieldset textarea::placeholder{
     }
     
     main fieldset > label {
-        font-size: 16px; /**/
+        font-size: 16px; 
     }
     
     form fieldset #title-box {
-        font-size: 16px; /**/
+        font-size: 16px;
     }
     
     form fieldset textarea::placeholder{
@@ -335,7 +354,7 @@ form fieldset textarea::placeholder{
 @media only screen and (min-width: 1024px) and (max-width: 1500px) {
 
     body {
-        font-size: 16px; /**/
+        font-size: 16px; 
     }
     
     header p {
